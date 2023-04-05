@@ -12,6 +12,7 @@
 ```
 โครงสร้างของโปรแกรม Classdiagram
 
+```mermaid
 classDiagram
     order <|-- Notebook
     order <|-- Person
@@ -32,5 +33,7 @@ classDiagram
         +String lastname
         +String tel 
     }
+    
+```
     
 ```ผู้พัฒนาโปรแกรม : นางสาวอรปรียา จันทะโคตร 653450107-5 ```
