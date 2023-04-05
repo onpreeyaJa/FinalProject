@@ -12,4 +12,25 @@
 ```
 โครงสร้างของโปรแกรม Classdiagram
 
+classDiagram
+    order <|-- Notebook
+    order <|-- Person
+    order : +double Price
+    order : +String PersonPhone
+    order : +String PersonName
+    order : +String NotebookBrand
+    order : +String NotebookModel
+    order : +String Date_in
+    order : +String Date_out
+    class Notebook{
+      +String brand
+      +String model
+
+    }
+    class Person{
+        +String name
+        +String lastname
+        +String tel 
+    }
+    
 ```ผู้พัฒนาโปรแกรม : นางสาวอรปรียา จันทะโคตร 653450107-5 ```
